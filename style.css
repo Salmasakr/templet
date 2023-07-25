@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+.container .item {
+  background-color: rgb(119, 1, 119);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+.container .c-a {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 10px;
+}
+.container .c-a div {
+  background-color: rgb(250, 221, 143);
+  text-align: center;
+  width: calc(33.3333333333% - 10px);
+  height: 300px;
+}
+.container .c-a p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.container .c-a .b-item {
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(127, 208, 233);
+  border: none;
+}
+.container .c-a .c-item {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(127, 208, 233);
+  border: none;
+}
+.container .c-a .d-item {
+  margin-left: 20px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(127, 208, 233);
+  border: none;
+}
+.container .c-a .e-item {
+  padding: 5px 170px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(127, 208, 233);
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
